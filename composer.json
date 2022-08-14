@@ -1,0 +1,26 @@
+{
+    "name": "jukra00/kirby-sitemap",
+    "description": "Simple Plugin to provide sitemap.xml with multilingual support.",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "version": "0.0.0",
+    "authors": [
+        {
+            "name": "Justus Kraft",
+            "email": "hallo@justuskraft.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0 <8.1.0",
+        "getkirby/cms": "^3.5",
+        "getkirby/composer-installer": "^1.2"
+    },
+    "extra": {
+        "installer-name": "sitemap"
+    },
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    }
+}
