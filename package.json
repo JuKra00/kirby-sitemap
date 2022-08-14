@@ -1,6 +1,6 @@
 {
   "name": "kirby-sitemap",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple Plugin to provide sitemap.xml with multilingual support.",
   "scripts": {
     "release": "release-it",
